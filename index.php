@@ -14,7 +14,8 @@
 </head>
 
 <body class="main-body">
-    <div class="container-fluid vh-100">
+    <div class="container-fluid vh-100 d-flex justify-content-center">
+        <div class="row align-content-center"></div>
 
     </div>
 
