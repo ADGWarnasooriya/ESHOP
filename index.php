@@ -13,7 +13,7 @@
     <link rel="icon" href="./resources/logo.svg">
 </head>
 
-<body>
+<body class="main-body">
 
 
 
