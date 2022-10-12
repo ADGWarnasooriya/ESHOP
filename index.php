@@ -9,6 +9,8 @@
     <title>E-Shop</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="./resources/logo.svg">
 </head>
 
 <body>
