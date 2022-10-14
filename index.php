@@ -21,6 +21,9 @@
         <div class="col-12">
             <div class="row">
                 <div class="col-12 logo"></div>
+                <div class="col-12">
+                    <p class="text-center title1">Hi, welcome to eshop</p>
+                </div>
             </div>
         </div>
         <!-- header -->
