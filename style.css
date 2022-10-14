@@ -17,3 +17,8 @@
     font-family: "Quicksand";
     src: url("fonts/Quicksand-Medium.ttf");
 }
+
+@font-face {
+    font-family: "Honey";
+    src: url("fonts/HoneyScript-Light.ttf");
+}
