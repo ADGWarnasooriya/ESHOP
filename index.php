@@ -28,6 +28,14 @@
         </div>
         <!-- header -->
 
+        <!-- content -->
+        <div class="col-12 p-3">
+            <div class="row">
+                <div class="col-6 d-none d-lg-block background"></div>
+            </div>
+        </div>
+        <!-- content -->
+
     </div>
 
 
