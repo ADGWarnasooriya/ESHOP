@@ -22,3 +22,8 @@
     font-family: "Honey";
     src: url("fonts/HoneyScript-Light.ttf");
 }
+
+*{
+    font-family: "Quicksand";
+    font-size: 14px;
+}
