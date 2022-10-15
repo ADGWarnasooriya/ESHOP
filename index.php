@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6" id="signInBox">
+                    <div class="col-12 col-lg-6 d-none" id="signInBox">
                         <div class="row g-2">
                             <div class="col-12">
                                 <p class="title2">Sign In</p>
