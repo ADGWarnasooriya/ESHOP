@@ -80,7 +80,20 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6" id="signInBox">
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <p class="title2">Sign In</p>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
 
+                            <div class="col-12">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
