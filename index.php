@@ -41,9 +41,15 @@
                                 <label class="form-label">First Name</label>
                                 <input type="text" class="form-control">
                             </div>
+
                             <div class="col-6">
                                 <label class="form-label">Last Name</label>
                                 <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control">
                             </div>
                         </div>
                     </div>
