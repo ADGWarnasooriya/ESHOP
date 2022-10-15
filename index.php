@@ -32,6 +32,13 @@
             <div class="col-12 p-3">
                 <div class="row">
                     <div class="col-6 d-none d-lg-block background"></div>
+                    <div class="col-12 col-lg-6" id="signUpBox">
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <p class="title2">Create New Account</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- content -->
