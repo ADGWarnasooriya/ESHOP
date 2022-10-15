@@ -37,6 +37,14 @@
                             <div class="col-12">
                                 <p class="title2">Create New Account</p>
                             </div>
+                            <div class="col-6">
+                                <label class="form-label">First Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Last Name</label>
+                                <input type="text" class="form-control">
+                            </div>
                         </div>
                     </div>
                 </div>
