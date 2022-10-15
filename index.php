@@ -100,6 +100,10 @@
                                     <label class="form-check-label">Remember Me</label>
                                 </div>
                             </div>
+
+                            <div class="col-6 text-end">
+                                <a href="#" class="link-primary">Forgot Password?</a>
+                            </div>
                         </div>
                     </div>
                 </div>
