@@ -79,7 +79,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 col-lg-6" id="signInBox">
 
+                    </div>
                 </div>
             </div>
             <!-- content -->
