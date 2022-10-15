@@ -57,7 +57,7 @@
                                 <input type="password" class="form-control">
                             </div>
 
-                            <div class="col-12">
+                            <div class="col-6">
                                 <label class="form-label">Mobile</label>
                                 <input type="text" class="form-control">
                             </div>
