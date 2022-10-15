@@ -61,6 +61,14 @@
                                 <label class="form-label">Mobile</label>
                                 <input type="text" class="form-control">
                             </div>
+
+                            <div class="col-6">
+                                <label class="form-label">Gender</label>
+                                <select class="form-control">
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
