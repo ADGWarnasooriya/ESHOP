@@ -93,6 +93,13 @@
                                 <label class="form-label">Password</label>
                                 <input type="password" class="form-control">
                             </div>
+
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">Default checkbox</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
