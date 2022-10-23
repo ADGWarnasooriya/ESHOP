@@ -1,3 +1,8 @@
+<?php
+
+require "connection.php";
+?>
+
 <!DOCTYPE html>
 
 <html>
