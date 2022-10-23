@@ -71,7 +71,11 @@ require "connection.php";
                             <div class="col-6">
                                 <label class="form-label">Gender</label>
                                 <select class="form-select">
+                                    <?php
 
+                                    $rs = Database::search("SELECT * FROM `gender`");
+
+                                    ?>
                                 </select>
                             </div>
 
