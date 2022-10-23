@@ -74,8 +74,22 @@ require "connection.php";
                                     <?php
 
                                     $rs = Database::search("SELECT * FROM `gender`");
+                                    $n  = $rs->num_rows;
+
+                                    for ($x = 0; $x < $n; $x++) {
+                                        $d = $rs->fetch_assoc();
+
 
                                     ?>
+
+                                        <option value=" <?php echo $d["id"]; ?>"><?php echo $d["gender_name"]; ?></option>
+
+                                    <?php
+
+                                    }
+
+                                    ?>
+
                                 </select>
                             </div>
 
