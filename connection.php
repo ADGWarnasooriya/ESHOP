@@ -20,4 +20,13 @@ class Database
         Database::setUpConnection();
         Database::$connection->query($q);
     }
+
+    public static function search($q)
+    {
+
+        Database::setUpConnection();
+
+        $resultset = Database::$connection->query($q);
+        return $resultset;
+    }
 }
