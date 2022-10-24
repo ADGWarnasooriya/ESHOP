@@ -6,3 +6,7 @@ function changeView(){
     signUpBox.classList.toggle("d-none");
     signInBox.classList.toggle("d-none");
 }
+
+function signUp(){
+    alert("ok");
+}
