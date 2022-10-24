@@ -16,11 +16,25 @@ function signUp(){
     var m = document.getElementById("m");
     var g = document.getElementById("g");
 
-    alert(f.value);
-    alert(l.value);
-    alert(e.value);
-    alert(p.value);
-    alert(m.value);
-    alert(g.value);
+    var form = new FormData;
+
+    form.append("f",f.value);
+    form.append("l",l.value);
+    form.append("e",e.value);
+    form.append("p",p.value);
+    form.append("m",m.value);
+    form.append("g",g.value);
+
+    var request = new XMLHttpRequest();
+
+    request.onreadystatechange = function(){
+        if(request.readyState == 4){
+            var text = request.responseText;
+            alert (text);
+        }
+    }
+
+    request.open("POST","signUpProcess.php",true);
+    request.send(form);
     
 }
