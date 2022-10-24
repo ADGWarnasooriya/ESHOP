@@ -10,7 +10,7 @@ class Database
 
         if (!isset(Database::$connection)) {
 
-            Database::$connection = new mysqli("localhost", "root", "", "eshop", "3306");
+            Database::$connection = new mysqli("localhost", "root", "123456", "eshop", "3306");
         }
     }
 
