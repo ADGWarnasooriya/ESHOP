@@ -7,14 +7,8 @@ $password = $_POST["p"];
 $mobile = $_POST["m"];
 $gender = $_POST["g"];
 
-echo ($fname);
-echo ("<br/>");
-echo ($lname);
-echo ("<br/>");
-echo ($email);
-echo ("<br/>");
-echo ($mobile);
-echo ("<br/>");
-echo ($password);
-echo ("<br/>");
-echo ($gender);
+if (empty($fname)) {
+    echo ("Please enter your First Name !!!");
+} else if (strlen($fname) > 50) {
+    echo ("First Name must have less than 50 charactors");
+}
