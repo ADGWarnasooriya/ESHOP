@@ -17,6 +17,7 @@ require "connection.php";
     <link rel="stylesheet" href="style.css">
 
     <link rel="icon" href="./resources/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body class="main-body">
@@ -43,6 +44,7 @@ require "connection.php";
                             <div class="col-12">
                                 <p class="title2">Create New Account</p>
                             </div>
+                            <div class="col-12"></div>
                             <div class="col-6">
                                 <label class="form-label">First Name</label>
                                 <input type="text" class="form-control" id="f">
