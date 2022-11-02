@@ -46,8 +46,9 @@ require "connection.php";
                             </div>
                             <div class="col-12">
                                 <div class="alert alert-danger" role="alert">
-                                    <i class="bi bi-x-octagon-fill"></i>
-                                    A simple danger alert—check it out!
+                                    <i class="bi bi-x-octagon-fill fs-5">
+                                        A simple danger alert—check it out!
+                                    </i>
                                 </div>
                             </div>
                             <div class="col-6">
