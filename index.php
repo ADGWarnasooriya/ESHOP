@@ -44,10 +44,10 @@ require "connection.php";
                             <div class="col-12">
                                 <p class="title2">Create New Account</p>
                             </div>
-                            <div class="col-12" id="msgdiv">
+                            <div class="col-12 d-none" id="msgdiv">
                                 <div class="alert alert-danger" role="alert">
                                     <i class="bi bi-x-octagon-fill fs-5" id="msg">
-                                        
+
                                     </i>
                                 </div>
                             </div>
