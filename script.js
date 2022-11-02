@@ -30,7 +30,7 @@ function signUp(){
     request.onreadystatechange = function(){
         if(request.readyState == 4){
             var text = request.responseText;
-            alert (text);
+            document.getElementById("msg").innerHTML = text;
         }
     }
 
