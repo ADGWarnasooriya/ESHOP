@@ -31,6 +31,7 @@ function signUp(){
         if(request.readyState == 4){
             var text = request.responseText;
             document.getElementById("msg").innerHTML = text;
+            document.getElementById("msgdiv").innerHTML = "d-block";
         }
     }
 
