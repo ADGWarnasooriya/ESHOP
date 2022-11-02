@@ -44,7 +44,11 @@ require "connection.php";
                             <div class="col-12">
                                 <p class="title2">Create New Account</p>
                             </div>
-                            <div class="col-12"></div>
+                            <div class="col-12">
+                                <div class="alert alert-danger" role="alert">
+                                    A simple danger alert—check it out!
+                                </div>
+                            </div>
                             <div class="col-6">
                                 <label class="form-label">First Name</label>
                                 <input type="text" class="form-control" id="f">
