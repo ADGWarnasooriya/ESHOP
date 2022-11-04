@@ -11,4 +11,8 @@ if (empty($fname)) {
     echo ("Please enter your First Name !!!");
 } else if (strlen($fname) > 50) {
     echo ("First Name must have less than 50 charactors");
+} else if (empty($lname)) {
+    echo ("Please enter your Last Name !!!");
+} else if (strlen($lname) > 50) {
+    echo ("Last Name must have less than 50 charactors");
 }
