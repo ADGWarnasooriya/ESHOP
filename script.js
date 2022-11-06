@@ -33,7 +33,7 @@ function signUp(){
             // alert(text);
             if (text == "success") {
                 document.getElementById("msg").innerHTML= text;
-                document.getElementById("msg").className = "bi bi-check2-circle";
+                document.getElementById("msg").className = "bi bi-check2-circle fs-5";
                 document.getElementById("alertdiv").className = "alert alert-success";
                 document.getElementById("msgdiv").className = "d-block";
             } else {
