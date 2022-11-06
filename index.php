@@ -45,7 +45,7 @@ require "connection.php";
                                 <p class="title2">Create New Account</p>
                             </div>
                             <div class="col-12 d-none" id="msgdiv">
-                                <div class="alert alert-danger" role="alert">
+                                <div class="alert alert-danger" role="alert" id="alertdiv">
                                     <i class="bi bi-x-octagon-fill fs-5" id="msg">
 
                                     </i>
