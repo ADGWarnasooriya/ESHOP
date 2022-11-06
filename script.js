@@ -32,12 +32,13 @@ function signUp(){
             var text = request.responseText;
             // alert(text);
             if (text == "Success") {
-                document.getElementById("msg").innerText = text
-                document.getElementById("alertdiv").className = "alert alert-success"
-                document.getElementById("msgdiv").className = "d-block"
+                document.getElementById("msg").innerText = text;
+                document.getElementById("msg").className = "bi bi-check2-circle";
+                document.getElementById("alertdiv").className = "alert alert-success";
+                document.getElementById("msgdiv").className = "d-block";
             } else {
-                document.getElementById("msg").innerText = text
-                document.getElementById("msgdiv").className = "d-block"
+                document.getElementById("msg").innerText = text;
+                document.getElementById("msgdiv").className = "d-block";
             }
         }
     }
