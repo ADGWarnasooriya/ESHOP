@@ -1,5 +1,7 @@
 <?php
 
+require "connection.php";
+
 $fname = $_POST["f"];
 $lname = $_POST["l"];
 $email = $_POST["e"];
