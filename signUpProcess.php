@@ -25,4 +25,8 @@ if (empty($fname)) {
     echo ("Please enter your password !!!");
 } else if (strlen($password) < 5 || strlen($password) > 20) {
     echo ("Password must be between 5 - 20 characters");
+} else if (empty($mobile)) {
+    echo ("Please enter your mobile number !!!");
+} else if (strlen($mobile) != 10) {
+    echo ("mobile must have 10 characters");
 }
