@@ -21,4 +21,8 @@ if (empty($fname)) {
     echo ("Email must have less than 100 characters");
 } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo ("Invalid Email !!!");
+} else if (empty($password)) {
+    echo ("Please enter your password !!!");
+} else if (strlen($password) < 5 || strlen($password) > 20) {
+    echo ("Password must be between 5 - 20 characters");
 }
