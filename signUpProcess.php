@@ -19,4 +19,6 @@ if (empty($fname)) {
     echo ("Please enter your email !!!");
 } elseif (strlen($email) >= 100) {
     echo ("Email must have less than 100 characters");
+} else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo ("Invalid Email !!!");
 }
