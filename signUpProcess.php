@@ -15,4 +15,8 @@ if (empty($fname)) {
     echo ("Please enter your Last Name !!!");
 } else if (strlen($lname) > 50) {
     echo ("Last Name must have less than 50 charactors");
+} elseif (empty($email)) {
+    echo ("Please enter your email !!!");
+} elseif (strlen($email) >= 100) {
+    echo ("Email must have less than 100 characters");
 }
