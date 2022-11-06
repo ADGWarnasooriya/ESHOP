@@ -26,16 +26,21 @@ function signUp(){
     form.append("g",g.value);
 
     var request = new XMLHttpRequest();
-
-    request.onreadystatechange = function(){
-        if(request.readyState == 4){
+    request.open("POST", 'signUpProcess.php', true);
+    request.onreadystatechange = function () {
+        if (request.readyState == 4) {
             var text = request.responseText;
-            document.getElementById("msg").innerHTML = text;
-            document.getElementById("msgdiv").innerHTML = "d-block";
+            // alert(text);
+            if (text == "Success") {
+                document.getElementById("msg").innerText = text
+                document.getElementById("msg").className = "alert alert-success"
+                document.getElementById("msgdiv").className = "d-block"
+            } else {
+                document.getElementById("msg").innerText = text
+                document.getElementById("msgdiv").className = "d-block"
+            }
         }
     }
-
-    request.open("POST","signUpProcess.php",true);
     request.send(form);
     
 }
