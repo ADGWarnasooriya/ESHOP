@@ -33,7 +33,7 @@ function signUp(){
             // alert(text);
             if (text == "Success") {
                 document.getElementById("msg").innerText = text
-                document.getElementById("msg").className = "alert alert-success"
+                document.getElementById("alertdiv").className = "alert alert-success"
                 document.getElementById("msgdiv").className = "d-block"
             } else {
                 document.getElementById("msg").innerText = text
