@@ -26,12 +26,12 @@ function signUp(){
     form.append("g",g.value);
 
     var request = new XMLHttpRequest();
-    request.open("POST", 'signUpProcess.php', true);
+    
     request.onreadystatechange = function () {
         if (request.readyState == 4) {
             var text = request.responseText;
             // alert(text);
-            if (text == "success") {
+            if (text == "success !") {
                 document.getElementById("msg").innerHTML= text;
                 document.getElementById("msg").className = "bi bi-check2-circle fs-5";
                 document.getElementById("alertdiv").className = "alert alert-success";
@@ -42,6 +42,7 @@ function signUp(){
             }
         }
     }
+    request.open("POST", 'signUpProcess.php', true);
     request.send(form);
     
 }
