@@ -31,8 +31,8 @@ function signUp(){
         if (request.readyState == 4) {
             var text = request.responseText;
             // alert(text);
-            if (text == "Success") {
-                document.getElementById("msg").innerText = text;
+            if (text == "success") {
+                document.getElementById("msg").innerHTML= text;
                 document.getElementById("msg").className = "bi bi-check2-circle";
                 document.getElementById("alertdiv").className = "alert alert-success";
                 document.getElementById("msgdiv").className = "d-block";
